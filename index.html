@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+
+    <!--custom css link-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!--box icons link-->
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!--google fonts link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500;600;700;800&family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<!--header section-->
+    <header>
+        <a href="#" class="logo"><img src="logo.png" width="200" height="200"></a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <ul class="navlist">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#works">Works</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+
+    <!--hero section-->
+    <section class="home" id="home">
+        <div class="hero-text">
+            <h3>Hello I'm</h3>
+            <h1>Larry Louie T. Lacandazo</h1>
+            <h4>from Far Eastern University</h4>
+            <a href="#works" class="btn">My Works</a>
+        </div>
+    </section>
+
+    <!--about section-->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="pic8.jpg" width="400px" height="450px">
+        </div>
+
+        <div class="about-text">
+            <h2>About Me</h2>
+            <h5>I am a good <span>cook, dancer and choreographer</span></h5>
+            <p>I am currently finding a partner that would make me want to do more or push me always to do my best. 
+            Most of my friends labels me as the "Most Matured" in our circle. I don't think so, there are just things 
+            that we see on a different picture.
+            </p>
+            <a href="https://mail.google.com/mail/u/0/#inbox" class="btn">Date Me</a>
+        </div>
+    </section>
+
+    <!--services section-->
+    <section class="works" id="works">
+        <div class="text-center">
+            <h2>My Works</h2>
+            <h4>SHEEEEEEEEESH</h4>
+        </div>
+
+
+            <div class="service-item">
+                <div class="service-box">
+                    <h3>Animation</h3>
+                    <a href="animation/index.html" target="_blank" class="btn"><h3>View</h3></a>
+                </div>
+            
+                <div class="service-box">
+                    <h3>Curriculum Vitae</h3>
+                    <a href="TSA1/index.html" target="_blank" class="btn"><h3>View</h3></a>
+                </div>
+            
+                <div class="service-box">
+                    <h3>Calculator</h3>
+                    <a href="S3/index.html" target="_blank" class="btn"><h3>View</h3></a>
+                </div>
+
+        </div>
+    </section>
+
+    <!--gallery section-->
+    <div class="full-img" id="fullImgBox">
+        <img src="pic1.jpg" id="fullImg">
+        <span onclick="closeFullImg()">X</span>
+
+    </div>
+   <div class="img-gallery" id="gallery">
+        <img src="pic1.jpg" onclick="openFullImg(this.src)">
+        <img src="pic3.jpg" onclick="openFullImg(this.src)">
+        <img src="pic4.jpg" onclick="openFullImg(this.src)">
+        <img src="pic5.jpg" onclick="openFullImg(this.src)">
+        <img src="pic7.jpg" onclick="openFullImg(this.src)">
+        <img src="pic8.jpg" onclick="openFullImg(this.src)">
+   </div>
+
+
+    <!--contact section-->
+    <section class="contact" id="contact">
+        <div class="left-contact">
+            <div class="in">
+                <i class='bx bx-mobile' ></i>
+                <h4>Mobile: 09063744066</h4>
+            </div>
+
+            <div class="in">
+                <i class='bx bx-envelope' ></i>
+                <h4>Email: larilacandazo15@gmail.com</h4>
+            </div>            
+        </div>
+
+    </section>
+
+    <!--end section-->
+    <section class="end-section">
+        <h3>Larry Lacandazo</h3>
+        <p>Here are my social media accounts. Make sure to follow me for more updates!</p>
+        <div class="end-icons">
+            <a href="https://www.facebook.com/larrylouie.lacandazo/" target="_blank"><i class='bx bxl-facebook-circle' ></i></a>
+            <a href= "https://www.instagram.com/larehluwi/" target="_blank"><i class='bx bxl-instagram' ></i></a>
+            <a href="https://twitter.com/larehluwi" target="_blank"><i class='bx bxl-twitter' ></i></a>
+        </div>
+    </section>
+
+    <!--scroll btn-->
+    <a href="#" class="scroll-bttn"><i class='bx bx-chevron-up' ></i></a>
+
+    <!--scroll reveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+<!--custom js file link-->
+<script src="js/script.js">
+    
+</script>
+
+</body>
+</html>
